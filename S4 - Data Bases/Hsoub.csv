@@ -1,0 +1,101 @@
+_id,rank,title,id
+ObjectId(6558d9136f43ba9943b1786a),9,The Lord of the Rings: The Return of the King,tt0167260
+ObjectId(6558d9136f43ba9943b1786b),2,The Godfather,tt0068646
+ObjectId(6558d9136f43ba9943b1786c),13,One Flew Over the Cuckoo's Nest,tt0073486
+ObjectId(6558d9136f43ba9943b1786d),14,Inception,tt1375666
+ObjectId(6558d9136f43ba9943b1786e),16,Star Wars,tt0076759
+ObjectId(6558d9136f43ba9943b1786f),15,Goodfellas,tt0099685
+ObjectId(6558d9136f43ba9943b17870),17,Seven Samurai,tt0047478
+ObjectId(6558d9136f43ba9943b17871),18,Forrest Gump,tt0109830
+ObjectId(6558d9136f43ba9943b17872),19,The Matrix,tt0133093
+ObjectId(6558d9136f43ba9943b17873),20,The Lord of the Rings: The Two Towers,tt0167261
+ObjectId(6558d9136f43ba9943b17874),21,City of God,tt0317248
+ObjectId(6558d9136f43ba9943b17875),22,Se7en,tt0114369
+ObjectId(6558d9136f43ba9943b17876),24,Once Upon a Time in the West,tt0064116
+ObjectId(6558d9136f43ba9943b17877),23,The Silence of the Lambs,tt0102926
+ObjectId(6558d9136f43ba9943b17878),25,Casablanca,tt0034583
+ObjectId(6558d9136f43ba9943b17879),8,Schindler's List,tt0108052
+ObjectId(6558d9136f43ba9943b1787a),28,Rear Window,tt0047396
+ObjectId(6558d9136f43ba9943b1787b),29,It's a Wonderful Life,tt0038650
+ObjectId(6558d9136f43ba9943b1787c),27,Raiders of the Lost Ark,tt0082971
+ObjectId(6558d9136f43ba9943b1787d),4,Pulp Fiction,tt0110912
+ObjectId(6558d9136f43ba9943b1787e),5,"The Good, the Bad and the Ugly",tt0060196
+ObjectId(6558d9136f43ba9943b1787f),30,Psycho,tt0054215
+ObjectId(6558d9136f43ba9943b17880),3,The Godfather: Part II,tt0071562
+ObjectId(6558d9136f43ba9943b17881),31,Léon: The Professional,tt0110413
+ObjectId(6558d9136f43ba9943b17882),32,Sunset Blvd.,tt0043014
+ObjectId(6558d9136f43ba9943b17883),10,Fight Club,tt0137523
+ObjectId(6558d9136f43ba9943b17884),11,Star Wars: Episode V - The Empire Strikes Back,tt0080684
+ObjectId(6558d9136f43ba9943b17885),34,Apocalypse Now,tt0078788
+ObjectId(6558d9136f43ba9943b17886),33,American History X,tt0120586
+ObjectId(6558d9136f43ba9943b17887),26,The Usual Suspects,tt0114814
+ObjectId(6558d9136f43ba9943b17888),35,Terminator 2: Judgment Day,tt0103064
+ObjectId(6558d9136f43ba9943b17889),36,Saving Private Ryan,tt0120815
+ObjectId(6558d9136f43ba9943b1788a),38,City Lights,tt0021749
+ObjectId(6558d9136f43ba9943b1788b),1,The Shawshank Redemption,tt0111161
+ObjectId(6558d9136f43ba9943b1788c),7,12 Angry Men,tt0050083
+ObjectId(6558d9136f43ba9943b1788d),40,Alien,tt0078748
+ObjectId(6558d9136f43ba9943b1788e),41,Modern Times,tt0027977
+ObjectId(6558d9136f43ba9943b1788f),42,Spirited Away,tt0245429
+ObjectId(6558d9136f43ba9943b17890),43,North by Northwest,tt0053125
+ObjectId(6558d9136f43ba9943b17891),45,Life Is Beautiful,tt0118799
+ObjectId(6558d9136f43ba9943b17892),46,The Shining,tt0081505
+ObjectId(6558d9136f43ba9943b17893),47,The Pianist,tt0253474
+ObjectId(6558d9136f43ba9943b17894),44,Back to the Future,tt0088763
+ObjectId(6558d9136f43ba9943b17895),12,The Lord of the Rings: The Fellowship of the Ring,tt0120737
+ObjectId(6558d9136f43ba9943b17896),6,The Dark Knight,tt0468569
+ObjectId(6558d9136f43ba9943b17897),37,Memento,tt0209144
+ObjectId(6558d9136f43ba9943b17898),39,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb,tt0057012
+ObjectId(6558d9136f43ba9943b17899),52,Vertigo,tt0052357
+ObjectId(6558d9136f43ba9943b1789a),50,M,tt0022100
+ObjectId(6558d9136f43ba9943b1789b),48,Citizen Kane,tt0033467
+ObjectId(6558d9136f43ba9943b1789c),51,Paths of Glory,tt0050825
+ObjectId(6558d9136f43ba9943b1789d),56,Aliens,tt0090605
+ObjectId(6558d9136f43ba9943b1789e),62,WALL·E,tt0910970
+ObjectId(6558d9136f43ba9943b1789f),63,The Lives of Others,tt0405094
+ObjectId(6558d9136f43ba9943b178a0),64,Toy Story 3,tt0435761
+ObjectId(6558d9136f43ba9943b178a1),65,The Great Dictator,tt0032553
+ObjectId(6558d9136f43ba9943b178a2),66,The Prestige,tt0482571
+ObjectId(6558d9136f43ba9943b178a3),67,A Clockwork Orange,tt0066921
+ObjectId(6558d9136f43ba9943b178a4),61,The Intouchables,tt1675434
+ObjectId(6558d9136f43ba9943b178a5),69,Amélie,tt0211915
+ObjectId(6558d9136f43ba9943b178a6),68,Lawrence of Arabia,tt0056172
+ObjectId(6558d9136f43ba9943b178a7),70,To Kill a Mockingbird,tt0056592
+ObjectId(6558d9136f43ba9943b178a8),71,Reservoir Dogs,tt0105236
+ObjectId(6558d9136f43ba9943b178a9),73,The Lion King,tt0110357
+ObjectId(6558d9136f43ba9943b178aa),72,Das Boot,tt0082096
+ObjectId(6558d9136f43ba9943b178ab),74,Cinema Paradiso,tt0095765
+ObjectId(6558d9136f43ba9943b178ac),76,The Treasure of the Sierra Madre,tt0040897
+ObjectId(6558d9136f43ba9943b178ad),77,The Third Man,tt0041959
+ObjectId(6558d9136f43ba9943b178ae),75,Star Wars: Episode VI - Return of the Jedi,tt0086190
+ObjectId(6558d9136f43ba9943b178af),49,The Departed,tt0407887
+ObjectId(6558d9136f43ba9943b178b0),78,Once Upon a Time in America,tt0087843
+ObjectId(6558d9136f43ba9943b178b1),57,Taxi Driver,tt0075314
+ObjectId(6558d9136f43ba9943b178b2),54,Double Indemnity,tt0036775
+ObjectId(6558d9136f43ba9943b178b3),55,The Dark Knight Rises,tt1345836
+ObjectId(6558d9136f43ba9943b178b4),58,American Beauty,tt0169547
+ObjectId(6558d9136f43ba9943b178b5),53,Django Unchained,tt1853728
+ObjectId(6558d9136f43ba9943b178b6),59,The Green Mile,tt0120689
+ObjectId(6558d9136f43ba9943b178b7),60,Gladiator,tt0172495
+ObjectId(6558d9136f43ba9943b178b8),79,Requiem for a Dream,tt0180093
+ObjectId(6558d9136f43ba9943b178b9),80,Eternal Sunshine of the Spotless Mind,tt0338013
+ObjectId(6558d9136f43ba9943b178ba),81,Full Metal Jacket,tt0093058
+ObjectId(6558d9136f43ba9943b178bb),82,Oldboy,tt0364569
+ObjectId(6558d9136f43ba9943b178bc),84,L.A. Confidential,tt0119488
+ObjectId(6558d9136f43ba9943b178bd),83,Braveheart,tt0112573
+ObjectId(6558d9136f43ba9943b178be),85,Bicycle Thieves,tt0040522
+ObjectId(6558d9136f43ba9943b178bf),87,Singin' in the Rain,tt0045152
+ObjectId(6558d9136f43ba9943b178c0),86,Chinatown,tt0071315
+ObjectId(6558d9136f43ba9943b178c1),88,Princess Mononoke,tt0119698
+ObjectId(6558d9136f43ba9943b178c2),89,Monty Python and the Holy Grail,tt0071853
+ObjectId(6558d9136f43ba9943b178c3),90,Metropolis,tt0017136
+ObjectId(6558d9136f43ba9943b178c4),91,Rashomon,tt0042876
+ObjectId(6558d9136f43ba9943b178c5),94,2001: A Space Odyssey,tt0062622
+ObjectId(6558d9136f43ba9943b178c6),93,Amadeus,tt0086879
+ObjectId(6558d9136f43ba9943b178c7),95,All About Eve,tt0042192
+ObjectId(6558d9136f43ba9943b178c8),96,Witness for the Prosecution,tt0051201
+ObjectId(6558d9136f43ba9943b178c9),98,The Apartment,tt0053604
+ObjectId(6558d9136f43ba9943b178ca),97,The Sting,tt0070735
+ObjectId(6558d9136f43ba9943b178cb),99,Grave of the Fireflies,tt0095327
+ObjectId(6558d9136f43ba9943b178cc),100,Indiana Jones and the Last Crusade,tt0097576
+ObjectId(6558d9136f43ba9943b178cd),92,Some Like It Hot,tt0053291

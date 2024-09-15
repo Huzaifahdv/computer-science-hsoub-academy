@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:\Users\Use pc\سطح المكتب\Bank.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="1533"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,9:mainCustomers"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="113"/><column index="2" value="103"/><column index="3" value="101"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="installments" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="131"/><column index="2" value="78"/><column index="3" value="113"/><column index="4" value="179"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE &quot;Customers&quot; (
+	&quot;CustomerID&quot; INTEGER PRIMARY KEY,
+	&quot;Name&quot; TEXT, 
+	&quot;Remaining&quot; INTEGER
+)</sql><sql name="SQL 2">CREATE TABLE &quot;installments&quot; (
+	&quot;TransactionID&quot; INTEGER PRIMARY KEY,
+	&quot;Amount&quot; INTEGER,
+	&quot;CustomerID&quot; INTEGER,
+	&quot;Date&quot; TEXT,
+	FOREIGN KEY (CustomerID) REFERENCES Customers (CustomerID)
+)</sql><sql name="SQL 3">INSERT INTO Customers (CustomerID, Name, Remaining)
+VALUES
+	(1111, &quot;Hasan&quot;, 5000),
+	(2222, &quot;Hiba&quot;, 6000),
+	(3333, &quot;Mohamad&quot;, 7500),
+	(4444, &quot;Hiba&quot;, 10000),
+	(5555, &quot;Ibrahim&quot;, 2000),
+	(6666, &quot;Ahmad&quot;, 5000),
+	(7777, &quot;Hasan&quot;, 4500),
+	(8888, &quot;Mohamad&quot;, 6500),
+	(9999, &quot;Ahmad&quot;, 8500)
+	</sql><sql name="SQL 4">INSERT INTO installments (Amount, CustomerID, date)
+VALUES 
+	(450, 1111, &quot;05-OCT-2020&quot;),
+	(300, 2222, &quot;09-NOV-2020&quot;),
+	(700, 1111, &quot;05-JUN-2020&quot;),
+	(300, 3333, &quot;15-OCT-2020&quot;),
+	(500, 4444, &quot;05-NOV-2020&quot;),
+	(450, 5555, &quot;05-NOV-2020&quot;),
+	(350, 6666, &quot;20-JUN-2020&quot;),
+	(250, 7777, &quot;05-NOV-2020&quot;),
+	(150, 6666, &quot;08-JUL-2020&quot;),
+	(400, 5555, &quot;25-NOV-2020&quot;),
+	(700, 2222, &quot;02-OCT-2020&quot;)</sql><sql name="SQL 5">UPDATE Customers
+SET Remaining = Remaining - 
+(
+	SELECT Amount
+	FROM installments
+	WHERE Customers.CustomerID = installments.CustomerID
+)</sql><current_tab id="4"/></tab_sql></sqlb_project>

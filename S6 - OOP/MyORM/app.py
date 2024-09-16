@@ -2,14 +2,12 @@ from datetime import datetime
 import json
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
-
 from Model import Model
 from Field import *
 from Database import Database
 
 Model.db = Database('database.sqlite')  # تحديد قاعدة البيانات التي نرغب بإنشائها
 Model.connection = Model.db.connect()  # الاتصال بها
-
 PORT = 8000
 
 
